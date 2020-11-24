@@ -113,7 +113,7 @@ class _SignupState extends State<Signup> {
          StreamBuilder<bool>(
           stream: authBloc.isValid,
           builder: (context, snapshot) {
-            return AppButton(buttonText: 'Signup',buttonType: (snapshot.data == true) ? ButtonType.LightBlue : ButtonType.Disabled, onPressed: authBloc.signupEmail(widget.asArtisan),);
+            return AppButton(buttonText: 'Signup',buttonType: (snapshot.data == true) ? ButtonType.DarkGreen : ButtonType.Disabled, onPressed: authBloc.signupEmail(widget.asArtisan),);
           }
         ),
         SizedBox(height: 6.0,),
