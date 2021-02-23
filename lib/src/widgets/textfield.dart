@@ -12,6 +12,7 @@ class AppTextField extends StatefulWidget{
   final bool obscureText;
   final void Function(String) onChanged;
   final String errorText;
+  final TextCapitalization textCapitalization;
   final String initialText;
   final int maxLines;
 
@@ -24,6 +25,7 @@ class AppTextField extends StatefulWidget{
     this.obscureText = false,
     this.onChanged,
     this.errorText,
+    this.textCapitalization,
     this.initialText,
     this.maxLines = 1,
   });
@@ -80,6 +82,7 @@ class _AppTextFieldState extends State<AppTextField> {
               placeholder: widget.hintText,
               placeholderStyle: TextFieldStyles.placeholder,
               style: TextFieldStyles.text,
+              textCapitalization: widget.textCapitalization,
               textAlign: TextFieldStyles.textAlign,
               cursorColor: TextFieldStyles.cursorColor,
               decoration: (displayCupertinoErrorBorder) ? TextFieldStyles.cupertinoErrorDecoration : TextFieldStyles.cupertinoDecoration,
@@ -105,6 +108,7 @@ class _AppTextFieldState extends State<AppTextField> {
           cursorColor: TextFieldStyles.cursorColor,
           style:TextFieldStyles.text,
           textAlign: TextFieldStyles.textAlign,
+          textCapitalization: widget.textCapitalization,
           decoration: TextFieldStyles.materialDecoration(widget.hintText, widget.materialIcon,widget.errorText),
           obscureText: widget.obscureText,
           controller: _controller,

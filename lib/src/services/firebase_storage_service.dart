@@ -13,9 +13,9 @@ class FirebaseStorageService {
     return await snapshot.ref.getDownloadURL();
   }
 
-    Future<String> uploadVendorImage(File file, String fileName) async {
+    Future<String> uploadArtisanImage(File file, String fileName) async {
     var snapshot = await storage.ref()
-        .child('vendorImages/$fileName')
+        .child('artisanImages/$fileName')
         .putFile(file);
 
     return await snapshot.ref.getDownloadURL();

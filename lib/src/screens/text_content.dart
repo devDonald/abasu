@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 
 ///Text
 final String appTitle = '''Jangu ''';
 
 final String privacyAndPolicy = '''
 PRIVACY POLICY FOR MOBILE APPLICATION
-Effective date: November 1, 2020
-Applicable to: JanguAsk
+Effective date: December 21, 2020
+Applicable to: AbasuMobile
 1. DEFINITIONS
 “Data operator” 
-"Parties" means both You and the operator/owner of the Application: JanguAsk Limited.
+"Parties" means both You and the operator/owner of the Application: Abasu Konsult Limited.
 "Operator" means the owner, publisher and administrator of the Application.
 "Personal Data" means any personal information collected from You in relation with your use of this service which is capable of identifying You.
-"Service" means the application (both Mobile and Web), which is known as: JanguAsk including all pages, subpages, all blogs, forums and other connected internet content whatsoever.
+"Service" means the application (both Mobile and Web), which is known as: Abasu Konsult including all pages, subpages, all blogs, forums and other connected internet content whatsoever.
 "Third Party Service Provider" means a party or parties who are contracted by the owner/data controller for the purposes of processing the personal data of user.
 "User Content" means any audio, video, text, images or other material users choose to display on this Application.
 "You, Yours" means the user of this Application.
@@ -22,7 +21,7 @@ This Privacy Policy is designed to inform You about the Personal Data we collect
 We are committed to protecting your Personal Data while You use this Application.
 By continuing to use our Application, You acknowledge that You have reviewed the Privacy Policy and agree to its terms. This also means that You have consented to the use of Your Personal Data and have accepted the applicable disclosures.
 3. CONTACT
-JanguAsk Limited will responsible for data collection and users can contact us for any further clarifications or questions at contact@janguask.com.
+Abasu Konsult Limited will be responsible for data collection and users can contact us for any further clarifications or questions at @janguask.com.
 A data protection officer has been assigned who will be responsible for ensuring users data is only used for the purposes mentioned in this privacy policy. The data protection officer is Mubarak Saeed Ibrahim and can be contacted at mubarakibrahim@janguask.com
 4. THE PERSONAL DATA WE COLLECT FROM YOU
 We collect various information to enable us provide good Services to all our users. Depending on how our Service will be used, the different types of Personal Data we collect are as follows:
@@ -91,99 +90,32 @@ We reserve the right to modify and revise this Privacy Policy from time to time 
 final String termsAndCondition = '''
 MOBILE APPLICATION TERMS AND CONDITIONS
 Effective date: November 1, 2020
-These terms and conditions apply to You, the user of this application, and JanguAsk Limited, the Owner and operator of the following application: JanguAsk (the "Application").
+These terms and conditions apply to You, the user of this application, and Abasu Konsult Limited, the Owner and operator of the following application: AbasuMobile (the "Application").
 PLEASE READ THE TERMS AND CONDITIONS CAREFULLY as they affect Your legal right.
-1. Definitions
-"Parties" means both You (the user of the Service) and the Owner of this Service.
-"Content" means any content, writing, images, audiovisual content or other information published on this Service.
-"Your Content" means any audio, video, text, images or other material You choose to display on this Application subject to the restrictions provided in this Agreement.
-"Materials" means any materials, information or documentation that we may provide to You in connection with Your use of the Products including documentation, data, information developed any use and other materials which may assist in Your use of the Goods or Service.
-"Terms" means these terms and conditions.
-"Service" means the application, both mobile and web, which is known as: JanguAsk including all pages, subpages, all blogs, forums and other connected internet content whatsoever.
-"Third Party Goods/Services" means goods, products and services of third party that may be advertised on the Application.
-2. About this Application
-This Application is both a mobile and a web platform operated by JanguAsk Limited, an internet company registered in Nigeria with RC number 1713650. It is an educational social Application that provides students and contributors (also called mentors) with a platform to interact, exchange and share knowledge with one another. Students from secondary (high) school right to postgraduates can use this application. Mentors/contributors are individuals who may or may not be academic faculty or teaching staff in any institution. Individuals who consider themselves capable of contributing to students’ learning at different levels of education (including senior secondary/high school and tertiary) are who we call mentors/contributors. 
-This Service is offered to You upon Your acceptance of the Terms, conditions, notices hereinafter contained. Your use of this Service constitutes Your agreement to all the Terms contained herein.
-3. Agreement
-a. By using this Application (Mobile and Web), You acknowledge that You have reviewed, considered the Terms of this Agreement and understand same and agree to be bound by it. If You do not agree with these Terms or do not intend to be bound by it, You must quit the use of this Application immediately. In addition, when using these Service, You shall be subject to any posted guidelines or rules applicable to such services. Accordingly, any participation in this Service shall constitute acceptance of this Agreement.
-b. By using this Application and agreeing to these Terms, You represent and warrant that You have attained the age of 13 years.
-4. Acceptable Use
-a. We hereby grant You the license to use our Service for Your personal, non-commercial use to retrieve, display and view the Content on a mobile device or computer screen.
-b. The license created under these Terms is limited, non-exclusive, non-transferable and revocable.
-c. You agree that You will not use the Contents or Materials for any other purpose which may be contrary to your license to use this Service.
-d. Any unauthorized use by You shall terminate the permission or license granted by this Application.
-5. Prohibited Use
-a. You are expressly prohibited from collecting, downloading, copying or otherwise communicating with other Users from the Application.
-b. You agree not to use the Service in the following manner:
-(I). to harass, abuse or threaten others or otherwise violate any person's legal rights;
-(II). to perpetrate fraud;
-(III). to create or transmit unnecessary spam to any person or URL;
-(IV). to post, transmit or cause to be posted or transmitted, any communication or solicitation designed to obtain password, account, or private information of other Users or persons;
-(V). to post copyrighted content which does not belong to You and without obtaining the prior consent of the author;
-(VI). to use robot, spider, scraper or other automated means to access this Service without obtaining the prior consent of the Owner;
-(VII). to engage in or create any unlawful gambling, sweepstakes, or scheme;
-(VIII). publishing or distributing any obscene or defamatory material;
-(IX). using this Service in any way that impacts user access to the Application;
-(X). to engage in advertisement or solicit any User to buy or sell products or services without obtaining the prior consent of the Owner;
-(XI). disseminating computer viruses or other software;
-(XII). violating any intellectual property rights of the Owner or any third party;
-(XIII). to use the Application or any of the Services for illegal spam activities.
-c. Additionally, you agree that You will not do as follows:
-(I). interfere or attempt to interfere with the proper working of this Application; or
-(II). bypass any measures we may use to prevent or restrict access to this Application;
-(III). to interfere with or circumvent the security features of this Service;
-(IV). to damage, disable, overburden or impair this Service or any other person's use of this Service.
-(V). to use this Service contrary to the applicable laws and regulations or in a way that causes, or may cause harm to this Application, any person or business entity.
-d. The Owner has the authority to review all content posted by the Users on this Application and we reserve the right to terminate Your use of the Service for violating any of the prohibited uses.
-e. You acknowledge that the Application does not control the content or any information that may be posted by other users. Consequently, it is not responsible or liable for those contents or information.
-6. Intellectual Property Ownership
-a. You agree that we retain ownership of all Content included on the Application (text, graphics, video, software, data, page layout, images, and any other information capable of being stored in a computer) other than the contents uploaded by users.
-b. You are granted a limited license only, subject to the restrictions provided in this Terms, nothing on this Application shall be construed as granting any license or right to use any trademark or logo displayed on the Application without obtaining the prior written consent of the Owner.
-c. You hereby agree not to reproduce or distribute the Owner's intellectual property or use the intellectual property for any unlawful purpose.
-7. Your Content
-a. You undertake that You retain the exclusive right and ownership of Your Content and You are not infringing on any third party rights.
-b. You retain all rights and ownership to Your Content. However, when You upload Your Content, You grant the Owner a worldwide license to communicate, distribute, host, make modification or derivative works (solely for the purpose of showcasing Your work), reproduce, publicly display, publicly perform and use such content. The license granted by You is for the purposes of marketing, promoting, and improving our services.
-c. The Owner reserves the right to remove any of Your Content or any content that is unlawful, offensive, defamatory, or otherwise objectionable or violates any intellectual property rights or these Terms.
-8. User Account
-a. You may be required to register with us to have access to the Application.
-b. You will be required to provide certain personal information, which includes but not limited to Your name, user name, email address, phone number, and password. The information provided must be correct and accurate.
-c. This personal information must not be disseminated to anyone and when You discover that Your information has been compromised, You agree to notify us immediately. You also acknowledge that You are responsible for the security of Your personal information and that the Owner does not accept liability for the security of Your account as You agree to be responsible for maintaining the confidentiality of Your passwords or other account identifiers which You choose and all activities under Your account.
-d. The Owner reserves the right to terminate Your account where You have provided false inaccurate or incorrect information.
-e. It is at the sole discretion of the Owner to terminate the account or refuse to provide Service to any User at any time and for any reason.
-9. Privacy Policy
-Our privacy policy explains how we treat Your personal data and protect Your privacy when You use our Service. By using our Service, You agree that the Owner can use such data in the manner described in our Privacy Policy.
-10. Electronic Communications
-You consent to receive electronic communications and You agree that all agreements, notices, disclosures and other communications we provide to You electronically, via email and on this Application, satisfy any legal requirements that communications must be in writing.
-11. Reverse Engineering and Security
-You hereby agree as follows:
-(I). not to reverse engineer or permit the reverse engineering or dissemble any code or software from or on the Application or Services.
-(II). not to violate the Security of the Application or other Services through any unauthorized access, circumvention of encryption or other security tools, data mining or interference with any host or User or network.
-12. Affiliate Marketing and Advertisement
-We may engage in affiliate marketing and advertisement whereby we receive commission on the sale of Third Party Goods and/or Services through our Service. We may also accept advertising and sponsorship from commercial businesses or receive other forms of advertising compensation.
-13. Change to Service
-a. You accept that the Owner may vary, alter, amend or update the Content or Service, at any time and without Your consent.
-b. You also agree that the Service may not be available at all times and this may be as a result of the maintenance or for any other reason and we shall not be held liable for the failure to provide this Service.
-14. Indemnification
-You hereby agree to indemnify the Owner, its employees, agents and third parties from and against all liabilities, cost, demands, cause of action, damages and expenses (including reasonable attorney's fees) arising out of Your use or inability to use, any uploads made by You, Your violation of any rights of a third party and Your violation of applicable laws, rules or regulation.
-15. No Warranties
-You agree that You use this Application solely at Your risk as the Owner does not warrant the accuracy of the contents in this Application. You assume all the risk of viewing, reading, downloading the contents of this Application.
-The Owner expressly disclaims all express and implied warranties such as implied warranty of merchantability as the Owner makes no warranties that the Application or other Services will be accurate, error free, secure or uninterrupted.
-The Owner makes no warranty about the suitability, reliability, availability, timeliness and accuracy of the information, Contents, and other materials contained herein for any purpose. The Owner hereby disclaims all warranties and conditions with regard to the information, software, Products and related graphics and materials, including all implied warranties or conditions of merchantability, fitness for a particular purpose, title and non-infringement.
-You also agree that the Owner and its affiliates shall not be liable for any direct, indirect, punitive and all consequential damages or any damages whatsoever including, but not limited to damages for loss of use, data or profits, the failure to provide Services or for any information, software, Products, Services, related graphics and materials obtained through this Application, or otherwise arising out of the use of this Application, whether based on contract, negligence, strict liability, or otherwise.
-16. Service Interruptions
-The Owner may from time to time interrupt Your access or use of this Application to perform some maintenance or emergency services and You agree that the Owner shall not be held liable for any damage, loss which may arise thereof.
-17. Termination/Restriction of Access
-The Owner reserves the right to, at its sole discretion, terminate Your access to this Application and the related Service or any part thereof at any time, for any reason and without notice.
-The Owner shall have the right to terminate or terminate/suspend Your account for violating the Terms of this Service.
-If You register with us, You may terminate this Service at anytime by issuing a prior notice to us. Once this is done, You will no longer be bound by the provisions of this Terms.
-18. General Provisions
-a. Assignment: The Owner shall be permitted to assign, transfer its rights and/or obligations under these Terms. However, You shall not be permitted to assign, transfer any rights and/or obligations under these Terms.
-b. Entire Agreement: These Terms, disclaimers and any other agreement relating to the use of this Application constitute the entire agreement and shall supersede any other agreement.
-c. Separate Agreements: You may have other legal agreements with us. Those agreements are separate from these Terms. These Terms are not intended to alter, amend, revise or replace the terms of the other agreement.
-d. Applicable law: These Terms may be governed and construed in accordance with the Laws, regulations or guidelines of the Federal Republic of Nigeria and other treaties, or regulations which is applicable in Nigeria.
-e. Variation: The Owner may revise these Terms at any time as it sees fit, and by using this Application, You undertake that You shall review the terms of the revised Terms before accepting same. If any part of the Terms or any modification thereof is considered invalid or unenforceable, the remaining parts shall be considered valid and enforceable.
-f. Waiver: Failure to exercise any right in these Terms shall not operate as a waiver. The right or remedies herein provided are cumulative and not exclusive of any right or remedies provided by law.
-g. Severability: Every provision contained herein is intended to be severable. If any provision is invalid for any reason whatsoever, such invalidity shall not affect the validity of other clauses of these Terms.
+Terms for sellers
+1.Suppliers/sellers of good(building materials) must be verified before their products and profile would be displayed on our website/App. This verification would includes but not limited to the quality of the materials, reliability of the source, supply capacity and real address of the outlet store.
+If any of the aforementioned is found not to be reliable the building materials/goods uploaded and the account would not uploaded on our website/app.
+2.Service providers e.g architects, masons plumbers must also undergo a verification of their address, assessment of previous work and it quality, affidavit of good conduct, and certificate from relevant bodies or associations. If all this is done and verified then, his profile would be displayed on our website/app.
+3.Payment of workers would be done after 72hours following a service review by our customers. The payment would be subject to deductions if the customer gives a very poor rating or destruction of property during the course of the work. While workers with good reviews get bonuses after three consecutive reviews greater than 9.
+4.Payment for all products purchased from a seller would be done after 24 hours following a review by the buyer, that he/she has received the goods in good/building material in good state.
+5.All product sellers are to snap a picture of the goods/building material when its loaded and leaving his store. This is to help confirm the state of the product. Like wise service providers are advised to snap a picture of a complete work done and send it to our email, info@abasukonsult.com .
+Terms for Buyers
+1.Customers must pay for the service/ goods before their order would be processed.
+2.All services requested would take between 24 hours for it to be received, while urgent request for service would be received within 1-1 hour 30 minutes with a little additional charges.
+3.All goods requested for will be received within one hour.
+4.Buyers are to ensure that they always submit a review of the services rendered or goods/building materials received along with a picture. This should be done within 12 hours after which all complaints or review submitted would not be considered.
+
+''';
+
+final String aboutUs = '''
+
+AbasuMobile is a one stop hub for all form of building materials and manpower. We serve as a central point( market place for building materials) where intending house owners get to know the prices of goods and services that they will require in bringing their dream house into a reality.
+
+We provide materials at a very affordable price and services from reliable and certified professionals with just a click from the comfort of their homes.
+
+All building materials are ensured to reached the customer in good shape and of high quality.
+
+To enjoy or use our services efficiently we advise you to watch/read about how it works on our home page.
 
 ''';
 
@@ -224,22 +156,9 @@ class AbasuText extends StatelessWidget {
   }
 }
 
-List<String> janguAskLevelsForYearBook = ['Tertiary', 'Secondary', 'Primary'];
-List<String> janguAskLevels = ['Secondary', 'Undergraduate', 'Postgraduate'];
 List<String> gender = ['Male', 'Female'];
-List<String> janguAskQuestionType = ['Multiple Choice', 'True or False'];
 
 
-List<String> janguAskDocumentExtension = [
-  'pdf',
-  'txt',
-  'docx',
-  'doc',
-  'rtf',
-  'xls',
-  'xlsm',
-  'xlsx'
-];
 
 class ListWords {
   String titlelist;

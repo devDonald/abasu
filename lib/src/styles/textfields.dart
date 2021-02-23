@@ -13,11 +13,11 @@ abstract class TextFieldStyles {
 
   static TextStyle get placeholder => TextStyles.suggestion;
 
-  static Color get cursorColor => AppColors.darkblue;
+  static Color get cursorColor => AppColors.green;
 
   static Widget iconPrefix(IconData icon) => BaseStyles.iconPrefix(icon);
 
-  static TextAlign get textAlign => TextAlign.center;
+  static TextAlign get textAlign => TextAlign.left;
 
   static BoxDecoration get cupertinoDecoration {
     return BoxDecoration(

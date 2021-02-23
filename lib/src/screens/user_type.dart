@@ -1,7 +1,9 @@
+import 'package:abasu/providers/login_provider.dart';
 import 'package:abasu/src/screens/login.dart';
 import 'package:abasu/src/screens/text_content.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:provider/provider.dart';
 
 class LogInAs extends StatefulWidget {
   static const String id = 'LogInAs';
@@ -19,7 +21,6 @@ class _LogInAsState extends State<LogInAs> {
     return Scaffold(
       body: Stack(
         children: [
-
           Container(
             decoration: BoxDecoration(),
             child: Column(
@@ -80,26 +81,33 @@ class _LogInAsState extends State<LogInAs> {
                   children: <Widget>[
                     LogInAsButton(
                       title: 'As a Buyer',
-                      onTap: (){
+                      onTap: () {
+                        Provider.of<CheckLoginAs>(context, listen: false)
+                            .isAsArtisan();
+                        //
+                        Provider.of<CheckLoginAs>(context, listen: false)
+                            .asArtisan = false;
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) =>
-                                    Login(asArtisan: false,)
-                            ));
+                                builder: (context) => Login(
+                                      asArtisan: false,
+                                    )));
                       },
                     ),
                     LogInAsButton(
                       title: 'As an Artisan',
-                      onTap: (){
+                      onTap: () {
+                        Provider.of<CheckLoginAs>(context, listen: false)
+                            .isAsArtisan();
+                        //
+                        Provider.of<CheckLoginAs>(context, listen: false)
+                            .asArtisan = true;
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) =>
-                                    Login(asArtisan: true,)
-                            ));
+                                builder: (context) => Login(asArtisan: true)));
                       },
-
                     ),
                   ],
                 ),

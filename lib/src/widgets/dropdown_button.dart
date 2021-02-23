@@ -27,6 +27,7 @@ class AppDropdownButton extends StatelessWidget {
     if (Platform.isIOS) {
       return Padding(
         padding: BaseStyles.listPadding,
+
         child: Container(
           height: ButtonStyles.buttonHeight,
           width: MediaQuery.of(context).size.width,
@@ -41,13 +42,20 @@ class AppDropdownButton extends StatelessWidget {
               Expanded(
                 child: Center(
                     child: GestureDetector(
-                  child:(value == null) ? Text(hintText, style: TextStyles.suggestion)
-                  : Text(value, style: TextStyles.body),
-                  onTap: () {
-                    showCupertinoModalPopup(
-                        context: context, builder: (BuildContext context) {
-                          return _selectIOS(context, items, value);
-                        });
+
+                      child:(value == null) ? Text(hintText, style: TextStyles.suggestion)
+
+                          : Text(value, style: TextStyles.body),
+
+                      onTap: () {
+
+                        showCupertinoModalPopup(
+
+                            context: context, builder: (BuildContext context) {
+
+                              return _selectIOS(context, items, value);
+
+                            });
                   },
                 )),
               ),
