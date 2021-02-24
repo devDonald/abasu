@@ -29,54 +29,53 @@ class Products extends StatelessWidget {
               return noDataFound();
             } else if (snapshot.connectionState == ConnectionState.waiting) {
               return CircularProgressIndicator();
-            }
-
-            return Column(
-              children: <Widget>[
-                Expanded(
-                  child: GridView.builder(
-                      scrollDirection: Axis.vertical,
-                      shrinkWrap: true,
-                      primary: false,
-                      physics: BouncingScrollPhysics(),
-                      gridDelegate:
-                          new SliverGridDelegateWithFixedCrossAxisCount(
-                              crossAxisSpacing: 10,
-                              mainAxisSpacing: 5,
-                              childAspectRatio: 3 / 3.55,
-                              crossAxisCount: 2),
-                      itemCount: snapshot.data.docs.length,
-                      itemBuilder: (context, index) {
-                        var product = snapshot.data.docs[index];
-                        return ProductCard(
-                          productName: product['productName'],
-                          price: product['unitPrice'],
-                          productCategory: product['subCategory'],
-                          productImage: product['imageUrl'],
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => ProductDetails(
-                                          itemDescription:
-                                              product['description'] ??
-                                                  'Awesome Product to purchase',
-                                          itemImage: product['imageUrl'],
-                                          itemName: product['productName'],
-                                          itemPrice: product['unitPrice'],
-                                          itemQuantity:
-                                              '${product['availableUnits']}',
-                                          itemSubCategory:
-                                              product['subCategory'],
-                                          itemId: product['productId'],
-                                          itemType: product['category'],
-                                        )));
-                          },
-                        );
-                      }),
-                ),
-              ],
-            );
+            } else
+              return Column(
+                children: <Widget>[
+                  Expanded(
+                    child: GridView.builder(
+                        scrollDirection: Axis.vertical,
+                        shrinkWrap: true,
+                        primary: false,
+                        physics: BouncingScrollPhysics(),
+                        gridDelegate:
+                            new SliverGridDelegateWithFixedCrossAxisCount(
+                                crossAxisSpacing: 10,
+                                mainAxisSpacing: 5,
+                                childAspectRatio: 3 / 3.55,
+                                crossAxisCount: 2),
+                        itemCount: snapshot.data.docs.length,
+                        itemBuilder: (context, index) {
+                          var product = snapshot.data.docs[index];
+                          return ProductCard(
+                            productName: product['productName'],
+                            price: product['unitPrice'],
+                            productCategory: product['subCategory'],
+                            productImage: product['imageUrl'],
+                            onTap: () {
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                      builder: (context) => ProductDetails(
+                                            itemDescription: product[
+                                                    'description'] ??
+                                                'Awesome Product to purchase',
+                                            itemImage: product['imageUrl'],
+                                            itemName: product['productName'],
+                                            itemPrice: product['unitPrice'],
+                                            itemQuantity:
+                                                '${product['availableUnits']}',
+                                            itemSubCategory:
+                                                product['subCategory'],
+                                            itemId: product['productId'],
+                                            itemType: product['category'],
+                                          )));
+                            },
+                          );
+                        }),
+                  ),
+                ],
+              );
           }),
     );
   }

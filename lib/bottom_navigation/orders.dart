@@ -68,6 +68,7 @@ class _MyOrdersState extends State<MyOrders> {
                                   distance: snap['distance'],
                                   phone: snap['driverPhone'],
                                   isEnroute: snap['isEnroute'],
+                                  isDelivered: snap['isDelivered'],
                                   requestDate: getChatTime(snap['timestamp']),
                                 )));
                   },

@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:abasu/bottom_navigation/my_work_request.dart';
+import 'package:abasu/main.dart';
 import 'package:abasu/src/manpower/artisan_review.dart';
 import 'package:abasu/src/manpower/my_previous_works.dart';
 import 'package:abasu/src/screens/edit_profile.dart';
@@ -73,6 +74,18 @@ class _MyProfileState extends State<MyProfile> {
         appBar: AppBar(
           title: Text('My Profile'),
           backgroundColor: Colors.green,
+          actions: [
+            GestureDetector(
+                onTap: (){
+                  authId.signOutUser().then((value){
+                    Navigator.pushNamedAndRemoveUntil(
+                        context,
+                        '/login',
+                            (r) => false);
+                  });
+                },
+                child: Icon(Icons.logout)),
+          ],
         ),
         body: ListView(
           shrinkWrap: true,

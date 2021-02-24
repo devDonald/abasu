@@ -1,3 +1,5 @@
+import 'package:abasu/bottom_navigation/track_delivery.dart';
+import 'package:abasu/src/models/constants.dart';
 import 'package:abasu/src/widgets/button.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
@@ -22,6 +24,7 @@ class OrderDetails extends StatelessWidget {
     this.distance,
     this.driverAccepted,
     this.withDelivery,
+    this.isDelivered,
   }) : super(key: key);
   final String ownerName,
       orderTitle,
@@ -35,7 +38,7 @@ class OrderDetails extends StatelessWidget {
       status,
       distance,
       driverName;
-  final bool isEnroute, driverAccepted, withDelivery;
+  final bool isEnroute, driverAccepted, withDelivery, isDelivered;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -224,6 +227,18 @@ class OrderDetails extends StatelessWidget {
                 showCompleteDialog(context, orderId);
               },
             ),
+            isEnroute == true && isDelivered == false
+                ? GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => TrackDelivery(
+                                    orderId: orderId,
+                                  )));
+                    },
+                    child: TrackButton())
+                : Container(),
           ],
         ),
       ),

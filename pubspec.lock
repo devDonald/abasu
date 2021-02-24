@@ -249,13 +249,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.4"
-  flutter_rating_bar:
-    dependency: "direct main"
-    description:
-      name: flutter_rating_bar
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "3.2.0+1"
   flutter_svg:
     dependency: "direct main"
     description:
@@ -322,13 +315,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.0"
-  get_it:
-    dependency: "direct main"
-    description:
-      name: get_it
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "1.1.0"
   google_fonts:
     dependency: "direct main"
     description:
@@ -581,13 +567,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.3.3"
-  quick_feedback:
-    dependency: "direct main"
-    description:
-      name: quick_feedback
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.1.1"
   quiver:
     dependency: transitive
     description:
@@ -603,7 +582,7 @@ packages:
     source: hosted
     version: "0.0.14"
   rxdart:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: rxdart
       url: "https://pub.dartlang.org"

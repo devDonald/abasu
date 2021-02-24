@@ -1,3 +1,4 @@
+import 'package:abasu/main.dart';
 import 'package:abasu/src/construction/product_details.dart';
 import 'package:abasu/src/manpower/view_artisan.dart';
 import 'package:abasu/src/models/all_cards.dart';
@@ -33,6 +34,9 @@ class _HomeState extends State<Home> {
 
   @override
   void initState() {
+    if (authId.userId == null) {
+      Navigator.pushNamedAndRemoveUntil(context, '/login', (r) => false);
+    }
     getArtisan();
     getProducts();
     super.initState();

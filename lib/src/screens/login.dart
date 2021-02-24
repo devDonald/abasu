@@ -1,8 +1,6 @@
 import 'package:abasu/src/screens/forgot_password.dart';
 import 'package:abasu/src/screens/signup.dart';
-import 'package:abasu/src/screens/text_content.dart';
 import 'package:abasu/src/services/firestore_service.dart';
-import 'package:abasu/src/styles/buttons.dart';
 import 'package:abasu/src/styles/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -52,27 +50,25 @@ class _LoginState extends State<Login> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-                    SizedBox(height: 39.8),
+                    SizedBox(height: 45.8),
                     Container(
                       child: Center(
                         child: Column(
                           children: <Widget>[
-                            AbasuLogo(
+                            Image.asset(
+                              'assets/images/logo.png',
                               width: 101.1,
                               height: 92.7,
-                            ),
-                            AbasuText(
-                              fontSize: 35.0,
                             ),
                           ],
                         ),
                       ),
                     ),
-                    SizedBox(height: 31.1),
+                    SizedBox(height: 35.1),
                     ScreenTitleIndicator(
                       title: 'LOGIN',
                     ),
-                    SizedBox(height: 20.9),
+                    SizedBox(height: 30.9),
                     AuthTextFeildLabel(
                       label: 'Email Address',
                     ),
